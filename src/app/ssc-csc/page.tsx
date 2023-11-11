@@ -1,13 +1,17 @@
-interface Props {
-}
+import CreateContextComponent from '@/components/CreateContextComponent';
 
-const page:React.FC = () => {
+interface Props {}
 
+const page: React.FC = () => {
   return (
-    <>
-       
-    </>
-  )
-}
+    <div>
+      <CreateContextComponent>
+        <h1>
+          Next.js can render client side component in server side component
+        </h1>
+      </CreateContextComponent>
+    </div>
+  );
+};
 
-export default page
+export default page;
