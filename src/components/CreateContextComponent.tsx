@@ -10,9 +10,12 @@ const Provider = createContext({message: 'hi'});
 
 const CreateContextComponent: React.FC<Props> = props => {
   return (
-    <Provider.Provider value={{message: 'hi'}}>
-      {props.children}
-    </Provider.Provider>
+    <div style={{backgroundColor: 'whitesmoke', margin: '8px'}}>
+      <Provider.Provider value={{message: 'hi'}}>
+        <h2>Im client side component using create context</h2>
+        {props.children}
+      </Provider.Provider>
+    </div>
   );
 };
 
