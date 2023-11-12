@@ -30,7 +30,7 @@ export default function Home() {
       </div>
 
       <Link href={'/ssc-csc'}>ssc-csc</Link>
-      <Link href={'/animation'}>animation</Link>
+      <Link href={'/suspense'}>suspense</Link>
 
       <div className={styles.grid}>
         <a
