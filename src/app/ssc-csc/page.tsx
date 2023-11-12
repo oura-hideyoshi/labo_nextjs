@@ -1,4 +1,4 @@
-import CreateContextComponent from '@/components/CreateContextComponent';
+import CreateContextComponent from '@/app/ssc-csc/CreateContextComponent';
 
 interface Props {}
 

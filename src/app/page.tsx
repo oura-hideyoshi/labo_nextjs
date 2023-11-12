@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import Link from 'next/link'
+import Image from 'next/image';
+import styles from './page.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -29,7 +29,8 @@ export default function Home() {
         </div>
       </div>
 
-      <Link href={"/ssc-csc"}>ssc-csc</Link>
+      <Link href={'/ssc-csc'}>ssc-csc</Link>
+      <Link href={'/animation'}>animation</Link>
 
       <div className={styles.grid}>
         <a
@@ -83,5 +84,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
