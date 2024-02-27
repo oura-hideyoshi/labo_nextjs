@@ -4,33 +4,18 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-      <Link href={'/ssc-csc'}>ssc-csc</Link>
-      <Link href={'/suspense'}>suspense</Link>
-      <Link href={'/error-fallback'}>error-fallback</Link>
+    <main>
+      <ol>
+        <li>
+          <Link href={'/ssc-csc'}>ssc-csc</Link>
+        </li>
+        <li>
+          <Link href={'/suspense'}>suspense</Link>
+        </li>
+        <li>
+          <Link href={'/error-fallback'}>error-fallback</Link>
+        </li>
+      </ol>
     </main>
   );
 }
